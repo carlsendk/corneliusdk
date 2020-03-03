@@ -21,7 +21,7 @@ class Main extends React.Component {
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
-         <article
+        <article
           id="info"
           className={`${this.props.article === 'info' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -37,15 +37,15 @@ class Main extends React.Component {
           </span>
           {close}
         </article>
-        
+       
         <article
-          id="transport"
-          className={`${this.props.article === 'transport' ? 'active' : ''} ${
+          id="work"
+          className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-         <h2 className="major">TRANSPORT & PARKERING</h2>
+          <h2 className="major">TRANSPORT & PARKERING</h2>
           <p>
           Kirken ligger på Vardegade, og i maj vil der både være tog, Metro og busser der fører der til. Restaurant Fryd ligger lige ved siden af hvor vi bor, i nybyggede lokaler under BigBio biografen. 
           </p>
@@ -53,23 +53,27 @@ class Main extends React.Component {
             Hvis I kører i bil og gerne vil parkere tæt på kirken, så skal I være hurtige og snuppe en af de parkeringspladser der er på Vordingborggade. 
           </p>
           <p>Alternativt kan I parkere bilen i parkeringshuset P-hus Lüders i Helsinkigade, det tager nemlig maks 12 minutter at gå derfra, og parkeringshuset ligger kun to minutter fra den restaurant vi skal være på.  
-          </p>
+          </p>  
           <span className="image main">
           <a href="https://www.google.com/maps/d/u/0/viewer?mid=1uKbC-2shbH7GWccyvkOn02hUxWLAYNlt&hl=en&ll=55.705772331969065%2C12.594151860064699&z=16">
           <img src={pic02} alt="" /></a>
-          </span>  
+          </span>
           {close}
         </article>
 
         <article
-          id="liste"
-          className={`${this.props.article === 'liste' ? 'active' : ''} ${
+          id="about"
+          className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Ønskelisten</h2>
-          <ul>
+          <span className="image main">
+            <img src={pic03} alt="" />
+          </span>
+          <p>
+          <ul style="list-style-type:disc;">
             <li>Uldstrømper og ulddragter str.92</li>
             <li>Magna-tiles</li>
             <li>Magformers</li>
@@ -80,13 +84,13 @@ class Main extends React.Component {
             <li>Gode højtlæsningsbøger fx Den kæmpestore pære eller Grimms illustrerede eventyr</li>
             <li>Højdemåler</li>
             <li>Stableklodser</li>
-            <li>Uro med solsystemet: <a href="https://www.karrusella.dk/indretning/uroer/1920/uro-solsystem">https://www.karrusella.dk/indretning/uroer/1920/uro-solsystem</a></li>
+            <li>Uro med solsystemet: https://www.karrusella.dk/indretning/uroer/1920/uro-solsystem</li>
             <li>Kirsebærtræ</li>
           </ul>
-
+          </p>
           {close}
         </article>
-      </div>
+        </div>
     )
   }
 }
