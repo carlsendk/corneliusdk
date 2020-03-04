@@ -11,12 +11,12 @@ const Header = props => (
         Tilmelding inden 3. april til Jon: 28891300 eller Mette: 20685668</p>
     <span class="op-media fa fa-map-marker fa-5x"></span>
       <h3>
-        <a href="#info" target="">Praktisk info</a>
+        Praktisk info
       </h3>
       <p>Hans Egedes Kirke på Østerbro - Vardegade 14 2100 København Ø</p>
 		<span class="op-media fa fa-train fa-5x"></span>
 		<h3>
-      <a href="#transport" target="">Transport og parkering</a>
+      Transport og parkering
     </h3>
     <p>Parkering: P-hus Lüders i Helsinkigade,- S-tog: Nordhavn Station </p>
 		</div>
