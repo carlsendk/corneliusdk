@@ -6,7 +6,7 @@ const Header = props => (
 
     <div className="content">
       <div className="inner">
-        <h1>Velkommen til Conelius dåb</h1>
+        <h1>Velkommen til Cornelius dåb</h1>
         <p>Den 2. maj 2020 kl. 10.30<br></br>
         Tilmelding inden 3. april til Jon: 28891300 eller Mette: 20685668</p>
     <span class="op-media fa fa-map-marker fa-5x"></span>
