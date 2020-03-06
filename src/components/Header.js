@@ -44,6 +44,8 @@ const Header = props => (
 
       </ul>
     </nav>
+  <div className="content">
+      <div className="inner">
     <span class="op-media fa fa-map-marker fa-5x"></span>
       <h3>
         Praktisk info
@@ -54,6 +56,9 @@ const Header = props => (
       Transport og parkering
     </h3>
     <p>Parkering: P-hus Lüders i Helsinkigade,- S-tog: Nordhavn Station </p>
+    
+		</div>
+		</div>
   </header>
 )
 
