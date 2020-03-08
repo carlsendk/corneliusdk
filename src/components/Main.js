@@ -28,7 +28,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">PRAKTISK INFO</h2>
+          <h2 className="major">Praktisk Info</h2>
           <p>Dåben finder sted i Hans Egedes Kirke på Østerbro d. 2. maj kl 10.30. Der er indgang via Vardegade. Herefter følges vi til Restaurant Fryd hvor vi inviterer til brunch. Vi sørger for spændende underholdning til børnene.</p>      
           <p>Adressen til Restaurant Fryd er: Hamborg Plads 6, 2150 Nordhavn</p>
           <p>Tilmelding inden 3. april til Jon: 28891300 eller Mette: 20685668</p>
@@ -45,7 +45,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-         <h2 className="major">TRANSPORT & PARKERING</h2>
+         <h2 className="major">Transport</h2>
           <p>
           Kirken ligger på Vardegade, og i maj vil der både være tog, Metro og busser der fører der til. Restaurant Fryd ligger lige ved siden af hvor vi bor, i nybyggede lokaler under BigBio biografen. 
           </p>
